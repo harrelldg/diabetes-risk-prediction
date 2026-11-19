@@ -20,9 +20,11 @@ The portfolio version refactors the original notebook into a reproducible analys
 - Compare Logistic Regression, Random Forest, SVM, and Linear Regression as appropriate to each task.
 - Use one-hot encoding, scaling, PCA, stratified or shuffled five-fold cross-validation, held-out evaluation, and confusion matrices.
 
-## Data setup
+## Data
 
-The course-provided `Diabetes.csv` and `Diabetes_test.csv` files are not redistributed because no public redistribution licence was supplied. Place them in `data/` using those exact filenames. Expected fields include demographics, lifestyle and metabolic variables, `diagnosed_diabetes`, `diabetes_stage`, and `diabetes_risk_score`.
+The course brief describes 5,000 synthetically generated patient-style records designed from statistical distributions inspired by medical research. They are not real patient records. See `docs/course-project-brief.md` for the assignment scope and `data/README.md` for dataset context.
+
+The analysis expects `data/Diabetes.csv` and `data/Diabetes_test.csv`.
 
 ## Reproduce
 
@@ -39,4 +41,4 @@ The original submission reported approximately 62% accuracy and 84% recall for b
 
 ## Responsible-use note
 
-This is an academic demonstration, not a medical device or diagnostic tool. Model outputs must not be used for diagnosis, treatment, or patient triage.
+This is an academic demonstration using synthetic data, not a medical device or diagnostic tool. Model outputs must not be used for diagnosis, treatment, or patient triage.
