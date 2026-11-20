@@ -1,4 +1,4 @@
-"""Diabetes risk modelling: cleaned and reproducible academic analysis."""
+"""Diabetes risk modelling: cleaned and reproducible analysis."""
 
 from pathlib import Path
 import warnings

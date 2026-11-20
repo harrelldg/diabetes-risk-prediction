@@ -1,16 +1,12 @@
 # Diabetes Risk Prediction
 
-Individual final project for SDSC2001 Python for Data Science at City University of Hong Kong. Course grade: A-.
-
-## Overview
-
-This project builds an end-to-end Python workflow for three supervised-learning tasks:
+An end-to-end Python workflow for three supervised-learning tasks:
 
 1. Binary classification of diagnosed diabetes.
 2. Multiclass classification of diabetes stage.
 3. Regression of a continuous diabetes risk score.
 
-The portfolio version refactors the original notebook into a reproducible analysis script. Preprocessing and PCA are contained inside each modelling pipeline so they are fitted within cross-validation folds rather than before validation.
+This repository refactors the original notebook into a reproducible analysis script. Preprocessing and PCA are contained inside each modelling pipeline so they are fitted within cross-validation folds rather than before validation.
 
 ## Methods
 
@@ -22,7 +18,7 @@ The portfolio version refactors the original notebook into a reproducible analys
 
 ## Data
 
-The course brief describes 5,000 synthetically generated patient-style records designed from statistical distributions inspired by medical research. They are not real patient records. See `docs/course-project-brief.md` for the assignment scope and `data/README.md` for dataset context.
+The dataset contains 5,000 synthetically generated patient-style records designed from statistical distributions inspired by medical research. They are not real patient records. See `docs/project-scope.md` for the project scope and `data/README.md` for dataset context.
 
 The analysis expects `data/Diabetes.csv` and `data/Diabetes_test.csv`.
 
@@ -37,8 +33,8 @@ Figures are displayed locally. No patient-level output is saved by the script.
 
 ## Original reported results
 
-The original submission reported approximately 62% accuracy and 84% recall for binary classification, weaker multiclass performance under severe class imbalance, and Linear Regression R² of 0.98 for risk-score prediction. These are historical course results, not newly verified benchmarks. The high regression score may reflect a deterministic relationship between the target and inputs, so the analysis should not be interpreted as clinical validation.
+The original analysis reported approximately 62% accuracy and 84% recall for binary classification, weaker multiclass performance under severe class imbalance, and Linear Regression R² of 0.98 for risk-score prediction. These are historical results, not newly verified benchmarks. The high regression score may reflect a deterministic relationship between the target and inputs, so the analysis should not be interpreted as clinical validation.
 
 ## Responsible-use note
 
-This is an academic demonstration using synthetic data, not a medical device or diagnostic tool. Model outputs must not be used for diagnosis, treatment, or patient triage.
+This is a synthetic-data demonstration, not a medical device or diagnostic tool. Model outputs must not be used for diagnosis, treatment, or patient triage.
